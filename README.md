@@ -238,8 +238,15 @@ We chose to use the categorical variable **Rating**.
 In the graph below, we can see that products with a rating of 2 have the highest average **Total Price**.
 <img width="1013" height="609" alt="image" src="https://github.com/user-attachments/assets/525656b3-d43e-4b27-a3f6-c7e37858ad44" />
 
-
 **Bar plots** are the most useful type of graph when comparing different groups within a category, as each group is represented by a separate bar. The length of the bar provides a visual way to compare the groups. Bar plots are also useful for showing counts or frequencies of different categories and for ranking multiple groups. Additionally, they are suitable for conducting a T-test.
+
+## Trend Analysis Over Time
+
+We selected the time-related variable **Purchase Date** and created a new variable called **Month** to represent the months based on the purchase dates.  
+We then generated a **line plot** using this variable to show the trend over time.
+<img width="1020" height="587" alt="image" src="https://github.com/user-attachments/assets/16848cf4-01af-4f3f-abb1-18ca471a9b7e" />
+
+From the graph, we can observe that as the year progresses towards the end, sales decrease. This decline in sales towards the end of the year may be due to customers having already utilized their annual budget, resulting in fewer purchases.
 
 
 
