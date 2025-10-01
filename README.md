@@ -226,7 +226,7 @@ This formula provides the estimated probability that a purchase occurs on the we
 
 ## Gender Analysis
 We first selected the categorical variable **Gender** and created a Pivot Table showing the mean and standard deviation of the dependent variable **Total Price** for it.
-![Uploading image.png…]()
+
 
 
 
