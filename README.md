@@ -216,7 +216,9 @@ For this analysis, we selected **Total Price** as the **independent variable** t
 ## Logistic Regression Model
 The logistic regression model is defined as:
 Y = -0.243
+
 The probability of the event (**Weekend = 1**) given the independent variable (**Total Price**) is calculated as:
 P(Y = 1 | X) = \frac{1}{1 + e^{-0.243}}
+
 This formula provides the estimated probability that a purchase occurs on the weekend based on the Total Price.
 
