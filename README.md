@@ -39,3 +39,21 @@ This step also served to check for possible **multicollinearity** issues in the 
 ## Multicollinearity in The Data:
 Multicollinearity refers to the correlation between the explanatory variables in a model. The phenomenon occurs when there is a relationship between the explanatory variables and this relationship causes bias during the analysis. This phenomenon can cause the dependent variable to be overestimated and result in an incorrect prediction. Sometimes it is chosen to omit one of the related variables in order not to cause an incorrect prediction.
 Based on the Pearson correlation table, it can be seen that there is no relationship between the independent variables and therefore there is no concern for multicollinearity.
+
+## Independent Variables Predicting the Dependent Variable
+
+Based on the Pearson correlation table, the only independent variable that can effectively predict the dependent variable, **Total Price**, is **Quantity**. 
+The reason for this is that **Quantity** is the only independent variable that shows a strong positive linear relationship with the dependent variable, with a Pearson correlation coefficient of **0.651**. This indicates that as the quantity of items increases, the total price tends to increase proportionally. 
+Other independent variables, such as **Age** and **Rating**, do not show a significant linear correlation with **Total Price**, which implies that they are less effective as predictors for this dependent variable in a linear regression model.
+
+## Preliminary Insights and Hypotheses
+
+1. **Insight 1:** As the **Quantity** increases, we expect the **Total Price** to increase as well. This indicates a strong positive relationship between the number of items purchased and the total amount spent.
+
+2. **Insight 2:** There is no apparent relationship between the customer's **Age** and the **Total Price**. This suggests that age does not significantly influence the total amount spent in this dataset.
+
+3. **Hypothesis:** The **Purchase Date** variable may influence the number of transactions. During weekdays, there are more working days compared to weekends (Friday, Saturday, and Sunday), and customers are likely to make more online purchases during working hours. Therefore, we expect a higher number of transactions on weekdays compared to weekends.
+
+### Hypothesis testing:
+<img width="1012" height="225" alt="image" src="https://github.com/user-attachments/assets/4457e25a-bcf7-44f2-8b15-49775d65709d" />
+
