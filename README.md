@@ -1,5 +1,7 @@
 # Customer Purchasing Behavior Analysis
 
+## Data Preparation
+
 In this project, we built a structured dataset to analyze customer purchasing behavior.  
 The preprocessing steps included:
 
