@@ -258,9 +258,25 @@ We found that **Credit Card** and **PayPal** are the most common methods, which 
 - In terms of total spending, there are on average more transactions (and therefore higher total expenditures) during the weekdays compared to the weekend. Additionally, there is significant variability in the average **Total Price** throughout the year, and the linear trend line indicates an overall decrease in average price in the later months of the year compared to the earlier months.
 - **PayPal** and **Credit Card** are the dominant payment methods, each accounting for **29%** of total transactions. **Bank Transfer**, **Cash**, and **Debit Card** are less common in this electronics company.
 
-## Data Transformation in IngestionTransformation.py
+## Data Transformation
 In the file **IngestionTransformation.py**, we replaced the textual values in the columns **Gender**, **LoyaltyMember**, **ProductType**, and **PaymentMethod** with numerical values.
 <img width="1920" height="267" alt="image" src="https://github.com/user-attachments/assets/5be525c8-6aef-463b-bf78-8877859513d7" />
+
+## Handling Missing Values
+For the dependent variable **TotalPrice** and the continuous independent variable **AddOnTotal**, we calculated the mean of all non-missing values and filled the missing cells with this mean value.
+<img width="1730" height="365" alt="image" src="https://github.com/user-attachments/assets/3cb19fbb-b32b-49f3-94ae-378146e8a0a7" />
+
+## Handling Missing Values in Categorical and Binary Variables
+For categorical and binary variables, when a missing value was detected, we added a **print statement** to indicate the row and column of the missing value.  
+After identifying the missing values, we removed the corresponding rows from the dataset.
+<img width="714" height="106" alt="image" src="https://github.com/user-attachments/assets/b412d275-8e1a-4709-9036-8bd998d2c742" />
+
+## Final Step of Data Transformation
+In the final step of the transformation, we printed the number of rows that were deleted and the percentage of deleted rows relative to the entire dataset.
+<img width="1188" height="177" alt="image" src="https://github.com/user-attachments/assets/9cc13848-03ed-4d05-88ee-bf55db82b1ab" />
+
+
+
 
 
 
