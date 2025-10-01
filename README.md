@@ -202,10 +202,6 @@ There is no indication of **overfitting**, as the model achieved an **R² = 0.73
 
 ### Multicollinearity Check
 We tested for multicollinearity using the **Variance Inflation Factor (VIF)**:
-
-\[
 VIF = \frac{1}{1 - R^2} = \frac{1}{1 - 0.732} = 3.731
-\]
-
 Since the VIF value is **less than 6**, there is no concern about multicollinearity among the independent variables.
 
