@@ -200,10 +200,23 @@ The regression model fits the data well:
 - The range of predicted values from the model is **[588.16, 12320.256]**  
 There is no indication of **overfitting**, as the model achieved an **R² = 0.732**, which suggests a good fit while maintaining generalizability.
 
-### Multicollinearity Check
 We tested for multicollinearity using the **Variance Inflation Factor (VIF)**:
 
 VIF = \frac{1}{1 - R^2} = \frac{1}{1 - 0.732} = 3.731
 
 Since the VIF value is **less than 6**, there is no concern about multicollinearity among the independent variables.
+
+## Binary Dependent Variable Definition
+We defined a **binary dependent variable** called **Weekend**, which takes the value:
+- 1 if the purchase was made on the weekend (Friday, Saturday, Sunday)  
+- 0 if the purchase was made during weekdays  
+For this analysis, we selected **Total Price** as the **independent variable** to examine whether it can help predict whether a purchase occurs on the weekend or on a weekday.
+![Uploading image.png…]()
+
+## Logistic Regression Model
+The logistic regression model is defined as:
+Y = -0.243
+The probability of the event (**Weekend = 1**) given the independent variable (**Total Price**) is calculated as:
+P(Y = 1 | X) = \frac{1}{1 + e^{-0.243}}
+This formula provides the estimated probability that a purchase occurs on the weekend based on the Total Price.
 
