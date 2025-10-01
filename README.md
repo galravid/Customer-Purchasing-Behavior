@@ -248,6 +248,17 @@ We then generated a **line plot** using this variable to show the trend over tim
 
 From the graph, we can observe that as the year progresses towards the end, sales decrease. This decline in sales towards the end of the year may be due to customers having already utilized their annual budget, resulting in fewer purchases.
 
+## Payment Method Analysis
+We chose to use the categorical variable **Payment Method** to display, using a **Pie Chart**, which payment method is used for the most transactions.  
+We found that **Credit Card** and **PayPal** are the most common methods, which is reasonable since they are currently the most convenient payment options.
+<img width="1118" height="662" alt="image" src="https://github.com/user-attachments/assets/ae80a679-8b40-4602-9f46-3761c3b155ee" />
+
+## Key Insights from Data Analysis
+- There are differences in the average **Total Price** between different **Rating** groups. According to the bar plots and T-tests we performed, ratings **2** and **5** show higher average prices compared to ratings **1, 3, and 4**, with rating **3** having the lowest average price.
+- In terms of total spending, there are on average more transactions (and therefore higher total expenditures) during the weekdays compared to the weekend. Additionally, there is significant variability in the average **Total Price** throughout the year, and the linear trend line indicates an overall decrease in average price in the later months of the year compared to the earlier months.
+- **PayPal** and **Credit Card** are the dominant payment methods, each accounting for **29%** of total transactions. **Bank Transfer**, **Cash**, and **Debit Card** are less common in this electronics company.
+
+
 
 
 
