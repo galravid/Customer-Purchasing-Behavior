@@ -142,4 +142,52 @@ Using a significance level of \( \alpha = 0.05 \):
 ### Hypothesis test results:
 <img width="2000" height="940" alt="image" src="https://github.com/user-attachments/assets/ecba333a-66f3-4c76-a5f4-f67aa54bbd06" />
 
+## Linear Regression with the Purchase Date Variable
+
+To include the **Purchase Date** variable in a linear regression model, we created a **binary variable (`Weekend`)** based on the purchase date:
+
+- `1` indicates a purchase made during the weekend (**Friday, Saturday, Sunday**)  
+- `0` indicates a purchase made during weekdays (**Monday to Thursday**)  
+
+Additionally, all categorical variables were encoded using **dummy variables**.
+
+**First Run of Multiple Linear Regression:**  
+<img width="791" height="532" alt="image" src="https://github.com/user-attachments/assets/5c6db163-8391-4665-bd71-5f6eee249a70" />
+
+From the first run, we observed that some variables had **p-values greater than 0.05**, indicating they are not statistically significant. Therefore, we removed these variables from the model and re-ran the regression.
+
+**Updated Multiple Linear Regression Model:**  
+<img width="966" height="468" alt="image" src="https://github.com/user-attachments/assets/810f34c8-4df7-410d-b819-a75c94016685" />
+
+** The variables are significant in regression according to PV<0.05: **
+The variables that remained significant (**p-value < 0.05**) in the final regression are as follows:
+
+| Variable | P-Value | Coefficient (β_i) |
+|----------|---------|------------------|
+| Intercept (Age, Gender, Loyalty Member, Weekend, Rating 1, Rating 4, Rating 5, Product Type 1, Payment Method 1, Payment Method 2) | 0 | β_0 = 6.297 |
+| Quantity | 0 | β_1 = 0.195 |
+| Product Type 2 | 0 | β_2 = 0.471 |
+| Product Type 3 | 0 | β_3 = 0.955 |
+| Rating 2 | 0 | β_4 = -0.111 |
+| Rating 3 | 0 | β_5 = -0.115 |
+| Payment Method 3 | 0 | β_6 = 0.143 |
+| Payment Method 4 | 0 | β_7 = 0.217 |
+
+** Regression Equation:**
+The regression equation for the log-transformed dependent variable **LN(Total Price)** is:
+\[
+LN(Y) = 6.297 + 0.195X_1 + 0.471X_2 + 0.955X_3 - 0.111X_4 - 0.115X_5 + 0.143X_6 + 0.217X_7
+\]
+
+Where:
+- \(X_1\) = Quantity  
+- \(X_2, X_3\) = Product Type dummies  
+- \(X_4, X_5\) = Rating dummies  
+- \(X_6, X_7\) = Payment Method dummies  
+
+To obtain the predicted **Total Price**, we apply the exponential transformation:
+
+\[
+Y = e^{6.297 + 0.195X_1 + 0.471X_2 + 0.955X_3 - 0.111X_4 - 0.115X_5 + 0.143X_6 + 0.217X_7}
+\]
 
