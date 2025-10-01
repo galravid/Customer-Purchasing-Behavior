@@ -236,7 +236,8 @@ Next, we selected the categorical variable **Rating** and created a Pivot Table 
 ## Rating Analysis
 We chose to use the categorical variable **Rating**.  
 In the graph below, we can see that products with a rating of 2 have the highest average **Total Price**.
-<img width="1013" height="609" alt="image" src="https://github.com/user-attachments/assets/cca921f3-d3e6-404b-8ea5-4875ce32569a" />
+<img width="1013" height="609" alt="image" src="https://github.com/user-attachments/assets/525656b3-d43e-4b27-a3f6-c7e37858ad44" />
+
 
 **Bar plots** are the most useful type of graph when comparing different groups within a category, as each group is represented by a separate bar. The length of the bar provides a visual way to compare the groups. Bar plots are also useful for showing counts or frequencies of different categories and for ranking multiple groups. Additionally, they are suitable for conducting a T-test.
 
