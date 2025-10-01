@@ -211,7 +211,8 @@ We defined a **binary dependent variable** called **Weekend**, which takes the v
 - 1 if the purchase was made on the weekend (Friday, Saturday, Sunday)  
 - 0 if the purchase was made during weekdays  
 For this analysis, we selected **Total Price** as the **independent variable** to examine whether it can help predict whether a purchase occurs on the weekend or on a weekday.
-<img width="1711" height="284" alt="image" src="https://github.com/user-attachments/assets/3a28877e-ee96-46c2-8dd6-03978731ace2" />
+<img width="1494" height="538" alt="image" src="https://github.com/user-attachments/assets/ca8d8ff3-caf0-4072-9a39-d9cc4c3536ee" />
+
 
 ### Logistic Regression Model
 The logistic regression model is defined as:
@@ -226,7 +227,7 @@ This formula provides the estimated probability that a purchase occurs on the we
 
 ## Gender Analysis
 We first selected the categorical variable **Gender** and created a Pivot Table showing the mean and standard deviation of the dependent variable **Total Price** for it.
-
+<img width="1711" height="284" alt="image" src="https://github.com/user-attachments/assets/3a28877e-ee96-46c2-8dd6-03978731ace2" />
 
 
 
