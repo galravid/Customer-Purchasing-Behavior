@@ -225,9 +225,25 @@ P(Y = 1 | X) = \frac{1}{1 + e^{-0.243}}
 \
 This formula provides the estimated probability that a purchase occurs on the weekend based on the Total Price.
 
-## Gender Analysis
+## Analyzing the Categorical Variable
 We first selected the categorical variable **Gender** and created a Pivot Table showing the mean and standard deviation of the dependent variable **Total Price** for it.
 <img width="1711" height="284" alt="image" src="https://github.com/user-attachments/assets/3a28877e-ee96-46c2-8dd6-03978731ace2" />
+
+Next, we selected the categorical variable **Rating** and created a Pivot Table that displays the mean and standard deviation of the dependent variable Total price for it.
+<img width="1548" height="481" alt="image" src="https://github.com/user-attachments/assets/d38281e4-857c-4f4f-b760-a0db3d572c19" />
+
+הנה גרסה מתורגמת לאנגלית עם כותרת בפורמט Markdown:
+
+```markdown
+### Rating Analysis
+
+We chose to use the categorical variable **Rating**.  
+In the graph below, we can see that products with a rating of 2 have the highest average **Total Price**.
+<img width="1013" height="609" alt="image" src="https://github.com/user-attachments/assets/cca921f3-d3e6-404b-8ea5-4875ce32569a" />
+
+**Bar plots** are the most useful type of graph when comparing different groups within a category, as each group is represented by a separate bar. The length of the bar provides a visual way to compare the groups. Bar plots are also useful for showing counts or frequencies of different categories and for ranking multiple groups. Additionally, they are suitable for conducting a T-test.
+```
+
 
 
 
