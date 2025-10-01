@@ -57,3 +57,13 @@ Other independent variables, such as **Age** and **Rating**, do not show a signi
 ### Hypothesis testing:
 <img width="1012" height="225" alt="image" src="https://github.com/user-attachments/assets/4457e25a-bcf7-44f2-8b15-49775d65709d" />
 
+## Checking Normality of the Target Variable
+
+The target variable (**Total Price**) initially follows a **log-normal (LN) distribution**, which means it is not normally distributed. Since the dependent variable in many statistical analyses and modeling techniques is expected to follow a normal distribution, we applied the following corrections:
+1. **Log Transformation:** We applied a natural logarithm (LN) transformation to the target variable to reduce skewness and bring the distribution closer to normality.  
+2. **Removing Left Tail Outliers:** We also removed extreme values from the left tail of the distribution to further improve normality.
+
+These adjustments helped in obtaining a more normally distributed target variable, suitable for further analysis and modeling.
+<img width="1238" height="717" alt="image" src="https://github.com/user-attachments/assets/b98861e0-8f10-46b8-b12e-0309a13319a5" />
+
+
