@@ -139,3 +139,7 @@ Using a significance level of \( \alpha = 0.05 \):
 - 3-5: Reject \(H_0\), significant difference  
 - 4-5: Fail to reject \(H_0\), no significant difference
 
+### Hypothesis test results:
+<img width="2000" height="940" alt="image" src="https://github.com/user-attachments/assets/ecba333a-66f3-4c76-a5f4-f67aa54bbd06" />
+
+
