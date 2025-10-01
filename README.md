@@ -258,6 +258,10 @@ We found that **Credit Card** and **PayPal** are the most common methods, which 
 - In terms of total spending, there are on average more transactions (and therefore higher total expenditures) during the weekdays compared to the weekend. Additionally, there is significant variability in the average **Total Price** throughout the year, and the linear trend line indicates an overall decrease in average price in the later months of the year compared to the earlier months.
 - **PayPal** and **Credit Card** are the dominant payment methods, each accounting for **29%** of total transactions. **Bank Transfer**, **Cash**, and **Debit Card** are less common in this electronics company.
 
+## Data Transformation in IngestionTransformation.py
+In the file **IngestionTransformation.py**, we replaced the textual values in the columns **Gender**, **LoyaltyMember**, **ProductType**, and **PaymentMethod** with numerical values.
+<img width="1920" height="267" alt="image" src="https://github.com/user-attachments/assets/5be525c8-6aef-463b-bf78-8877859513d7" />
+
 
 
 
