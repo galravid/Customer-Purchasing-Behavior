@@ -286,6 +286,8 @@ An **R² = 0.833** is considered a good result, as it indicates strong predictiv
 **For the PaymentMethod variable:**
 <img width="983" height="690" alt="image" src="https://github.com/user-attachments/assets/04dda606-c2ce-4731-b8c3-4634fcf3f980" />
 
+**For the ProductType variable:**
+<img width="927" height="722" alt="image" src="https://github.com/user-attachments/assets/f5f571a2-8c17-4c56-8095-6aee2325e00c" />
 
 
 
