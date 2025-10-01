@@ -284,7 +284,8 @@ An **R² = 0.833** is considered a good result, as it indicates strong predictiv
 
 ## Pivot Table using Pipeline in NOSQL in MongoDB
 **For the PaymentMethod variable:**
-<img width="803" height="170" alt="image" src="https://github.com/user-attachments/assets/b568d2d6-cb19-413c-84ae-aac9030f17ee" />
+<img width="983" height="690" alt="image" src="https://github.com/user-attachments/assets/04dda606-c2ce-4731-b8c3-4634fcf3f980" />
+
 
 
 
