@@ -213,12 +213,15 @@ We defined a **binary dependent variable** called **Weekend**, which takes the v
 For this analysis, we selected **Total Price** as the **independent variable** to examine whether it can help predict whether a purchase occurs on the weekend or on a weekday.
 ![Uploading image.png…]()
 
-## Logistic Regression Model
+### Logistic Regression Model
 The logistic regression model is defined as:
+\
 Y = -0.243
-
+\
 The probability of the event (**Weekend = 1**) given the independent variable (**Total Price**) is calculated as:
-P(Y = 1 | X) = \frac{1}{1 + e^{-0.243}}
-
+\
+P(Y = 1 \mid X) = \frac{1}{1 + e^{-0.243}}
+\
 This formula provides the estimated probability that a purchase occurs on the weekend based on the Total Price.
+
 
