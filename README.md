@@ -66,4 +66,20 @@ The target variable (**Total Price**) initially follows a **log-normal (LN) dist
 These adjustments helped in obtaining a more normally distributed target variable, suitable for further analysis and modeling.
 <img width="1238" height="717" alt="image" src="https://github.com/user-attachments/assets/b98861e0-8f10-46b8-b12e-0309a13319a5" />
 
+## Reducing Categories for Categorical Variables
+
+For categorical variables, it is important to reduce the number of categories to 3-5 values to simplify analysis and improve interpretability. We performed the following steps in detail:
+
+1. **Payment Method:**  
+   The original **Payment Method** column contained 5 categories. We reduced it to 4 categories using a **Pivot Table**. Specifically, we merged the **Paypal** and **Credit Card** categories because their average transaction amounts (the dependent variable) were nearly identical. This can be observed in the accompanying graph.
+
+**Before reduction:**
+<img width="536" height="175" alt="image" src="https://github.com/user-attachments/assets/7ac1edff-22cc-4a92-8fdd-41ceda8ae2da" />
+<img width="810" height="501" alt="image" src="https://github.com/user-attachments/assets/ff67d187-9ec4-4846-82c1-a946449e02f1" />
+**After reduction:**
+<img width="526" height="142" alt="image" src="https://github.com/user-attachments/assets/f1e3a9c1-946a-484a-9666-5eb95e95439d" />
+<img width="959" height="456" alt="image" src="https://github.com/user-attachments/assets/b21f8b4f-fa20-4ed7-86ac-0cb53e1dd5c8" />
+
+2. **Product Type:**  
+   The original **Product Type** column contained 5 categories. We reduced it to 3 categories using a **Pivot Table**. In this case, we merged **Tablet**, **Laptop**, and **Smartwatch** into a single category, as their average transaction amounts (the dependent variable) were very similar. This consolidation is also illustrated in the attached graph.
 
