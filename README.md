@@ -269,13 +269,22 @@ For the dependent variable **TotalPrice** and the continuous independent variabl
 ## Handling Missing Values in Categorical and Binary Variables
 For categorical and binary variables, when a missing value was detected, we added a **print statement** to indicate the row and column of the missing value.  
 After identifying the missing values, we removed the corresponding rows from the dataset.
+
 <img width="714" height="106" alt="image" src="https://github.com/user-attachments/assets/b412d275-8e1a-4709-9036-8bd998d2c742" />
 
 ## Final Step of Data Transformation
 In the final step of the transformation, we printed the number of rows that were deleted and the percentage of deleted rows relative to the entire dataset.
+
 <img width="1188" height="177" alt="image" src="https://github.com/user-attachments/assets/9cc13848-03ed-4d05-88ee-bf55db82b1ab" />
 
+## Decision Tree Depth and Model Performance
+The tree depth that provides the best results in terms of **R²** is **8 branches**.  
+<img width="1524" height="208" alt="image" src="https://github.com/user-attachments/assets/905da5d4-0d0b-4d6c-90d1-9f539c5c3db0" />
+An **R² = 0.833** is considered a good result, as it indicates strong predictive capability—the model captures most of the patterns in the data without overfitting. Generally, an R² value between 0.7 and 0.85 indicates good model performance.
 
+## Pivot Table using Pipeline in NOSQL in MongoDB
+**For the PaymentMethod variable:**
+<img width="979" height="685" alt="image" src="https://github.com/user-attachments/assets/76d4e54b-31c8-4d50-835a-b2bb48e1e83d" />
 
 
 
