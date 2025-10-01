@@ -74,9 +74,11 @@ For categorical variables, it is important to reduce the number of categories to
    The original **Payment Method** column contained 5 categories. We reduced it to 4 categories using a **Pivot Table**. Specifically, we merged the **Paypal** and **Credit Card** categories because their average transaction amounts (the dependent variable) were nearly identical. This can be observed in the accompanying graph.
 
 **Before reduction:**
+
 <img width="669" height="186" alt="image" src="https://github.com/user-attachments/assets/d7753d14-4f2d-4cb3-9bd5-a1c3415837ca" />
 <img width="804" height="462" alt="image" src="https://github.com/user-attachments/assets/c2cd5443-79f0-4a97-94f4-03b6e56453b8" />
 **After reduction:**
+
 <img width="557" height="186" alt="image" src="https://github.com/user-attachments/assets/6f8782ce-d60e-4e19-b453-db86f46a0c09" />
 <img width="898" height="425" alt="image" src="https://github.com/user-attachments/assets/c976f453-8071-4093-ba7b-74165e22d734" />
 
@@ -86,8 +88,21 @@ For categorical variables, it is important to reduce the number of categories to
    The original **Product Type** column contained 5 categories. We reduced it to 3 categories using a **Pivot Table**. In this case, we merged **Tablet**, **Laptop**, and **Smartwatch** into a single category, as their average transaction amounts (the dependent variable) were very similar. This consolidation is also illustrated in the attached graph.
 
 **Before reduction:**
+
 <img width="536" height="175" alt="image" src="https://github.com/user-attachments/assets/7ac1edff-22cc-4a92-8fdd-41ceda8ae2da" />
 <img width="810" height="501" alt="image" src="https://github.com/user-attachments/assets/ff67d187-9ec4-4846-82c1-a946449e02f1" />
 **After reduction:**
+
 <img width="526" height="142" alt="image" src="https://github.com/user-attachments/assets/f1e3a9c1-946a-484a-9666-5eb95e95439d" />
 <img width="959" height="456" alt="image" src="https://github.com/user-attachments/assets/b21f8b4f-fa20-4ed7-86ac-0cb53e1dd5c8" />
+
+## Verifying the Changes in the Dataset
+
+To ensure that the changes we applied to the dataset worked correctly, we performed a **sanity check** as follows:
+
+1. **Payment Method:**  
+   We filtered the **Payment Method** column for each individual value and compared the average transaction amount obtained in the Pivot Table with the average from the full Excel dataset. The averages matched, confirming that the merger of **Paypal** and **Credit Card** into a single category was done correctly.
+
+2. **Product Type:**  
+   We filtered the **Product Type** column for each individual value and compared the average transaction amount obtained in the Pivot Table with the average from the full Excel dataset. Again, the averages matched, confirming that the merger of **Tablet**, **Laptop**, and **Smartwatch** into a single category was performed correctly.
+
