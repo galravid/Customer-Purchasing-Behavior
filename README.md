@@ -36,4 +36,6 @@ This step also served to check for possible **multicollinearity** issues in the 
 <img width="1189" height="364" alt="image" src="https://github.com/user-attachments/assets/8cc824aa-8649-4501-a68e-b71e08165754" />
 <img width="771" height="373" alt="image" src="https://github.com/user-attachments/assets/1399f043-88d4-458c-a1ea-ef8918827570" />
 
-
+## Multicollinearity in The Data:
+Multicollinearity refers to the correlation between the explanatory variables in a model. The phenomenon occurs when there is a relationship between the explanatory variables and this relationship causes bias during the analysis. This phenomenon can cause the dependent variable to be overestimated and result in an incorrect prediction. Sometimes it is chosen to omit one of the related variables in order not to cause an incorrect prediction.
+Based on the Pearson correlation table, it can be seen that there is no relationship between the independent variables and therefore there is no concern for multicollinearity.
