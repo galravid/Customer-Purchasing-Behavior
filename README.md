@@ -106,3 +106,36 @@ To ensure that the changes we applied to the dataset worked correctly, we perfor
 2. **Product Type:**  
    We filtered the **Product Type** column for each individual value and compared the average transaction amount obtained in the Pivot Table with the average from the full Excel dataset. Again, the averages matched, confirming that the merger of **Tablet**, **Laptop**, and **Smartwatch** into a single category was performed correctly.
 
+## Hypothesis Testing for a Categorical Variable
+
+We chose the categorical variable **Rating** and performed **T-Tests** on the target variable **LN(Total Price)**, which is normally distributed, to examine whether there are significant differences between the different rating groups.
+
+**Hypotheses:**
+
+- \(H_0\): There is no difference in the mean LN(Total Price) between the rating groups.  
+- \(H_1\): There is a difference in the mean LN(Total Price) between the rating groups.
+
+| Rating Comparison | 1-2   | 1-3 | 1-4 | 1-5 | 2-3 | 2-4 | 2-5 | 3-4 | 3-5 | 4-5 |
+|------------------|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| P-Value          | 0.0078 | 0   | 0.92 | 0.29 | 0   | 0.009 | 0.15 | 0   | 0   | 0.32 |
+
+**Conclusion:**  
+
+Using a significance level of \( \alpha = 0.05 \):
+
+- If \( p < 0.05 \), we reject \(H_0\) and conclude that there is a significant difference between the group means.  
+- If \( p \geq 0.05 \), we fail to reject \(H_0\) and conclude that there is no significant difference between the group means.
+
+**Results:**
+
+- 1-2: Reject \(H_0\), significant difference  
+- 1-3: Reject \(H_0\), significant difference  
+- 1-4: Fail to reject \(H_0\), no significant difference  
+- 1-5: Fail to reject \(H_0\), no significant difference  
+- 2-3: Reject \(H_0\), significant difference  
+- 2-4: Reject \(H_0\), significant difference  
+- 2-5: Fail to reject \(H_0\), no significant difference  
+- 3-4: Reject \(H_0\), significant difference  
+- 3-5: Reject \(H_0\), significant difference  
+- 4-5: Fail to reject \(H_0\), no significant difference
+
