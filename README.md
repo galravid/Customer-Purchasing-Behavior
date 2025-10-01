@@ -186,8 +186,26 @@ Where:
 - \(X_6, X_7\) = Payment Method dummies  
 
 To obtain the predicted **Total Price**, we apply the exponential transformation:
-
 \[
 Y = e^{6.297 + 0.195X_1 + 0.471X_2 + 0.955X_3 - 0.111X_4 - 0.115X_5 + 0.143X_6 + 0.217X_7}
 \]
+
+## Normal distribution:
+Based on the graph, the errors of the regression model are normally distributed
+<img width="1069" height="548" alt="image" src="https://github.com/user-attachments/assets/a5465ffd-da2f-4194-b142-bb0d3ed598e9" />
+
+## Model Fit and Multicollinearity Check
+The regression model fits the data well:
+- The range of the actual dependent variable (**Total Price**) is **[786.41, 11396.8]**  
+- The range of predicted values from the model is **[588.16, 12320.256]**  
+There is no indication of **overfitting**, as the model achieved an **R² = 0.732**, which suggests a good fit while maintaining generalizability.
+
+### Multicollinearity Check
+We tested for multicollinearity using the **Variance Inflation Factor (VIF)**:
+
+\[
+VIF = \frac{1}{1 - R^2} = \frac{1}{1 - 0.732} = 3.731
+\]
+
+Since the VIF value is **less than 6**, there is no concern about multicollinearity among the independent variables.
 
