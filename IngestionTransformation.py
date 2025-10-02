@@ -21,7 +21,7 @@ def create_overall_data_dictionary():
 
 
 def get_data_from_file():
-    path_string = rf"C:/Users/Gal/Desktop/Studies/Third year/Semester B/Advanced Topics In Databases/Assignment 2/Electronic_sales_Sep2023-Sep2024.csv"
+    path_string = rf"Electronic_sales_Sep2023-Sep2024.csv"
     simulation_data = pd.read_csv(path_string, encoding="ISO-8859-1")
     return simulation_data
 
@@ -275,3 +275,4 @@ check_for_nan_in_ready_data(data)
 print("All Finished")
 
 training_set, validation_set = create_training_and_validation_sets(data=data, ratio=0.8)
+
